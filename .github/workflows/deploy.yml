@@ -18,12 +18,13 @@ jobs:
     runs-on: ubuntu-24.04-arm
     steps:
       - uses: actions/checkout@v2
-      - run: cp out/index.html /out/index.html
+
       - name: Upload static files as artifact
         id: deployment
         uses: actions/upload-pages-artifact@v3 # or specific "vX.X.X" version tag for this action
         with:
           path: out/
+
   deploy:    
     runs-on: ubuntu-24.04-arm
     needs: build
