@@ -9,7 +9,7 @@ on:
       - 'samples/**'
       - 'scripts/**'
       - '**/*.md'
-      - '**/*.yml'
+      - 'environment.yml'
       - '**/*.ipynb'
 
 jobs:
