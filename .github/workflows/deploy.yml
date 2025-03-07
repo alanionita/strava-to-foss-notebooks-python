@@ -24,7 +24,7 @@ jobs:
           path: out/
   deploy:    
     runs-on: ubuntu-24.04-arm
-
+    needs: build
     permissions:      
       pages: write      
       id-token: write
@@ -37,3 +37,4 @@ jobs:
       - name: Deploy        
         id: deployment        
         uses: actions/deploy-pages@v4
+        
