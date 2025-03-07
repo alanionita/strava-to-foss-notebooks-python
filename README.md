@@ -16,6 +16,18 @@ A short and snappy collection of Jupyter Notebooks to turn Strava activity data 
 - **Plotting**: Leaflet mapping and other plotting features, seen above and deployed on the repo
 - **Deployment**: Deployment of the maps to Github Pages
 
+## Roadmap
+
+![Strava Screenshot](docs/screen2.png) <!-- Optional -->
+
+Replicating this Strava screen:
+- Elevation / Distance Map
+- KM / Pace / Elev
+- Distance, Elevation, Grade, Pace view 
+- Avg strides
+- Stopping / Walking view
+- Forecasting for the route eg. based on last 10 runs expect performance increase / decrease
+
 ## 📦 Installation
 
 ### Prerequisites
