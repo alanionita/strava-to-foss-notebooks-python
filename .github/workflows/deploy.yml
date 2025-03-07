@@ -25,10 +25,6 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
-      - name: Upload Artifacts
-        uses: actions/upload-pages-artifact@v3        
-        with:          # this should match the `pages` option in your adapter-static options          
-          path: 'out/'      
       - name: Deploy        
         id: deployment        
         uses: actions/deploy-pages@v4
