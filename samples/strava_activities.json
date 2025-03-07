@@ -1,0 +1,64 @@
+[
+    {
+        "resource_state": 2,
+        "athlete": {
+            "id": 1,
+            "resource_state": 1
+        },
+        "name": "20km easy on/off drills hills",
+        "distance": 17382.4,
+        "moving_time": 7441,
+        "elapsed_time": 16710,
+        "total_elevation_gain": 356.2,
+        "type": "Run",
+        "sport_type": "Run",
+        "workout_type": 0,
+        "id": 1,
+        "start_date": "2025-03-02T07:48:02Z",
+        "start_date_local": "2025-03-02T07:48:02Z",
+        "timezone": "(GMT+00:00) Europe/London",
+        "utc_offset": 0.0,
+        "location_city": null,
+        "location_state": null,
+        "location_country": "United Kingdom",
+        "achievement_count": 11,
+        "kudos_count": 0,
+        "comment_count": 0,
+        "athlete_count": 1,
+        "photo_count": 0,
+        "map": {
+            "id": "1",
+            "summary_polyline": "sa_gIprxLDSM_AFmAI_@]s@I@CoA]sAFO?c@MYQIEg@Wg@CcB_@cDQy@@a@[u@EY?_@]aDBc@KS?gAQuAeAqC]yCi@gCe@q@Gq@Qq@GBK]ICQw@OMe@}@Sq@g@cAg@uAOiAYm@CUOOEg@UGmAcFMQa@KWi@D@Kg@Jw@?[cBoL}ByMaBeI_@qDFa@KUEu@Ka@_@i@q@s@}@s@}@_F]sASiHDMOyB@s@_@oH@kCd@cDPcBlCwPDi@EY`@Uf@ETg@NcAbACLQD]ROPJZ`AL}@p@h@p@Ml@g@f@GZtB?|@NnB?`BLj@?d@NxA\\tAA|@Mr@Nd@n@z@Tn@`@VEEv@}@jAy@zA~EzBnC~B~BrA~CzAzCf@pAv@lAxBrBnCvC`ArAp@`@hApAhGlFfAd@|@FzFJ|AI|BtAf@x@Rn@|BhJb@t@tAnAbBNbAgAbCuA~Fg@l@Nx@n@x@Tb@l@rAz@jBhBXJd@t@pDfCT@^^|DhBpClBvIpDb@JnFvCtCbAVAPj@P`BA`AZfB\\N`@z@^\\~At@xA^r@n@hAVd@Df@Gl@_@rAa@jAN~CrBj@~@t@fBXz@f@f@hCLz@GpJ{Bp@Dx@ODHAVk@KsAJa@JWX}Bv@qBLwATYPMKWLgBY}@_AM_AqAwCWYm@Se@o@}Am@kBXqAr@g@BuAc@y@w@kDmAs@s@u@mBg@kEUeASQ}AYeAc@YNUGUP_Aq@iBc@EEFq@CG}Ag@kAu@uAs@YBkAk@IOiCy@_Aw@KWq@Y}AiAa@COWwAq@k@c@]e@s@_@g@q@_FqD_Bm@e@ASUi@AyEd@oAj@eBrAi@Pu@CwAo@w@kA@k@yB{J_AsAkAs@a@I_KUoAYk@a@qEiEuA_AwCsCQ_@qDoDy@iAkB_EaA_BcAcCk@u@}D}Dq@sAoA{E{@wG}@mJq@{D}@cDqA_Dm@qBy@eC]s@S\\FlCKp@oAdBwDjGqBtCDVLLd@xBoBhMu@hGKRCv@WrAAt@H|C\\vGHpEH`B@vBZhAx@`E@d@z@`@TRjAlBDpAJ^LlChBxIv@fE|CxSLjBSXUYqBc@sBaAAKo@c@SA{A}@{ALaAc@kACwAa@cAs@mAc@SYsCj@oAh@g@b@eAnA",
+            "resource_state": 2
+        },
+        "trainer": false,
+        "commute": false,
+        "manual": false,
+        "private": false,
+        "visibility": "followers_only",
+        "flagged": false,
+        "gear_id": "g",
+        "start_latlng": [
+            51,
+            -2
+        ],
+        "end_latlng": [
+            53,
+            -2
+        ],
+        "average_speed": 2.336,
+        "max_speed": 5.22,
+        "has_heartrate": false,
+        "heartrate_opt_out": false,
+        "display_hide_heartrate_option": false,
+        "elev_high": 381.8,
+        "elev_low": 225.9,
+        "upload_id": 0,
+        "upload_id_str": "TEST",
+        "external_id": "TEST",
+        "from_accepted_tag": false,
+        "pr_count": 5,
+        "total_photo_count": 0,
+        "has_kudoed": false
+    }
+]
