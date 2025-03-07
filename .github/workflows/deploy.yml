@@ -1,0 +1,34 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: 
+      - 'main'
+    paths-ignore:
+      - 'README.md'
+      - 'samples/**'
+      - 'scripts/**'
+      - '**/*.md'
+      - '**/*.yml'
+      - '**/*.ipynb'
+
+jobs:
+  deploy:    
+    runs-on: ubuntu-24.04-arm
+
+    permissions:      
+      pages: write      
+      id-token: write
+    
+    environment:      
+      name: github-pages      
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Upload Artifacts
+          uses: actions/upload-pages-artifact@v3        
+          with:          # this should match the `pages` option in your adapter-static options          
+            path: 'out/'      
+      - name: Deploy        
+        id: deployment        
+        uses: actions/deploy-pages@v4
