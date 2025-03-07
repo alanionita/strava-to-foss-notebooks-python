@@ -1,0 +1,1 @@
+conda activate strava_data_analysis
