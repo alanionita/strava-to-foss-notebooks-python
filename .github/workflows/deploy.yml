@@ -13,6 +13,15 @@ on:
       - '**/*.ipynb'
 
 jobs:
+  build:
+    # Specify runner +  build & upload the static files as an artifact
+    runs-on: ubuntu-24.04-arm
+    steps:
+      - name: Upload static files as artifact
+        id: deployment
+        uses: actions/upload-pages-artifact@v3 # or specific "vX.X.X" version tag for this action
+        with:
+          path: out/
   deploy:    
     runs-on: ubuntu-24.04-arm
 
