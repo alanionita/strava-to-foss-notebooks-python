@@ -1,4 +1,4 @@
-# [PROJECT NAME]
+# Strava to FOSS (notebooks)
 
 [![AGPL License](https://img.shields.io/badge/license-AGPL--3.0-blue.svg)](https://opensource.org/licenses/AGPL-3.0)
 [![Python Version](https://img.shields.io/badge/python-3.8%2B-blue)](https://python.org)
